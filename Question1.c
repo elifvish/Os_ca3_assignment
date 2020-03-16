@@ -7,7 +7,7 @@ main()
 	indicator = 0;
 	wait = 0;
 	tut = 0;
-	printf("Enter number of processes "); 
+	printf("Enter number of processes : "); 
 	scanf("%d",&no);
 	RemProc = no;
 	
