@@ -11,7 +11,7 @@ main()
 	scanf("%d",&no);
 	RemProc = no;
 	
-	printf("\nEnter the arrival time and burst time of the processes\n");
+	printf("\nEnter arrival time and burst time of the processes\n");
 	for(Proc_no = 0;Proc_no < no;Proc_no++) 
 	{
 		printf("\nProcess P%d\n",Proc_no+1);
