@@ -21,7 +21,7 @@ main()
 		scanf("%d",&bsT[Proc_no]); 
 		remt[Proc_no]=bsT[Proc_no]; 
 	} 
-	printf("The details of time quantum are as follows:\n");
+	printf("The details of the given quantum are as follows:\n");
 	printf("The time quantum for first round is 3.\n"); 
 	time_quan=3;
 	CurT=0;
