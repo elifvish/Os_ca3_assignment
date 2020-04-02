@@ -80,7 +80,7 @@ void rr(int no,int remt[10],int Cur_t,int arT[10], int bsT[10]){
 	float avg_wait,avg_tut;
     int i,j,n=no,temp,btime[20],Proc_no[20],w_time[20],tut_t[20],total=0,loc;
     
-    printf("Third round with least burst time.\n");
+    printf("Third round with least remaining burst time.\n");
     
     for(i=0;i<n;i++)
     {
