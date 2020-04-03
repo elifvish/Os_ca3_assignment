@@ -1,7 +1,7 @@
 #include<stdio.h> 
 
 void rr(int no,int remt[10],int Cur_t,int arT[10], int bsT[10]);
-main() 
+int main() 
 {
 	int Proc_no,j,no,CurT,RemProc,indicator,time_quan,wait,tut,arT[10],bsT[10],remt[10],x=1;
 	indicator = 0;
@@ -22,7 +22,7 @@ main()
 		remt[Proc_no]=bsT[Proc_no]; 
 	} 
 	printf("The details of the given quantum are as follows:\n");
-	printf("The time quantum for first round is 3.\n"); 
+	printf("The time quantum for first iteration is 3.\n"); 
 	time_quan=3;
 	CurT=0;
 	for(Proc_no=0;RemProc!=0;) 
@@ -55,7 +55,7 @@ main()
 				Proc_no=0;
 				time_quan=6;
 				
-				printf("The time quantum for second round is 6. \n");
+				printf("The time quantum for second iteration is 6. \n");
 			}
 			else{
 				break;
@@ -80,7 +80,7 @@ void rr(int no,int remt[10],int Cur_t,int arT[10], int bsT[10]){
 	float avg_wait,avg_tut;
     int i,j,n=no,temp,btime[20],Proc_no[20],w_time[20],tut_t[20],total=0,loc;
     
-    printf("Third round with least remaining burst time.\n");
+    printf("Third iteration with least remaining burst time.\n");
     
     for(i=0;i<n;i++)
     {
